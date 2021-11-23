@@ -1,2 +1,2 @@
-# komunikator
+# Projekt Bezpieczny Komunikator
 Komunikator
