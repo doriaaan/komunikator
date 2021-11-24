@@ -15,6 +15,10 @@ Baza danych potrzebna jest nam do zbierania i organizowania informacji. Aby orga
 Nasz bezpieczny komunikator będzie użytkowany poprzez aplikację mobilną jak i webową. Aplikacja ma za zadanie umożliwić użytkownikowi sprawne oraz bezpieczne komunikowanie się z innym użytkownikiem. Aplikacja mobilna będzie użytkowana na urządzeniach przenośnych tj. telefony. Natomiast przy użyciu komputera będzie można korzystać z aplikacji webowej jednak nie będzie ona oferowałaa tylu funkcji co aplikacja mobilna. Za aplikację odpowiedzialny będzie dział IT, a użytkować będą zarejestrowani użytkownicy. Aplikacja webowa będzie umożliwiała wysyłanie wiadomości między użytkownikami, wysyłanie multimediów oraz tworzenie grup użytkownikó. Aplikacja mobilna umożliwi użytkownikom również wysyłanie wiadomości, wysyłanie multimediów oraz tworzenie grup oraz dodatkowo nagrywanie wiadomości głosowych oraz możiwość rozmów przez transmisję video.
 
 
-4. System nadzorujący
-5. Proces weryfikacji
-6. Moduły aplikacji
+**4. System nadzorujący**
+
+Ważnym produktem dla nas są również systemy nadzorujące. Wymieniliśmy trzy systemy, które każde z nich odpowiedzialne są za inną czynność. Wymienić możemy system monitoringu wydajności aplikacji, system nadzorujący zasięg aplikacji oraz system nadzorujący włamania do systemu. Ich głównym celem jest monitorowanie i kontrolowanie pracy indywidualnych elementów co ułatwi nam weryfikowanie zdobytych informacji oraz będą alarmować nas w przypadku wystąpienia określonych nieprawidłowości czy próbach włamania do systemu przez osoby nieupoważnione do tego.
+
+
+**5. Proces weryfikacji**
+**6. Moduły aplikacji**
