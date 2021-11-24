@@ -1,4 +1,5 @@
 # Projekt Bezpieczny Komunikator
+Naszym projektem jest stworzenie bezpiecznego komunikatora, którego naszymi potencjalnymi użytkownikami zostaną żonierze wojska polskiego pracującego w MON. Celem bezpiecznego komunikatora jest wymiana treści między użytkownikami i ochrona tych wiadomości przed przechwyceniem przez obce służby. Nasz komunitor posiadać będzie szyfrowania end-to-end oraz peer-to-peer co pozwoli zagwarantować użytkowniom bezpieczną wymianę wiadomości. Nasz aplikacja nosi nazwę SafeMon. Aby zapewnić sprawne stworzenie aplikacji i zarządzanie nią potrzebujemy zatrudnić wielu wyspecjalizowanych pracowników, którzy będą odpowiedzialni za swoją część aby aplikacja powstała pomyślnie. Użytkowanie aplikacji może odbywać się przy pomocy aplikacji webowej bądż mobilnej z podziałem na android oraz ios
 ## Najważniejsze produkty projektu.
 
 **1. Serwer**
@@ -21,4 +22,10 @@ Ważnym produktem dla nas są również systemy nadzorujące. Wymieniliśmy trzy
 
 
 **5. Proces weryfikacji**
-**6. Moduły aplikacji**
+
+Proces weryfikacji użytkowników będzie odbywał się po wcześniejszym sprawdzeniu ich oraz jedyną rzeczą przy rejetracji będzie podanie numeru telefonu użytkownika. Następnie na podstawie numeru służby opowiedzialne za weryfikację sprawdzą potencjalnego użytkownika. Następnie na numer telefonu zostanie wysłany specjalny kod pin bądź kod QR, którym użytkownik loguje się do aplikacji. Jednak w celu zwiększenia bezpieczeństwa przed kradzieżą konta, będzie wymagane co jakiś czas ponowne wprowadzenie kodu pin bądź QR. 
+
+**6. Moduły aplikacji oraz zabezpieczające**
+
+Modułysą ważnym produktem naszego projektu, gdyż to dzięki nim użytkownicy będą mogli się ze sobą wymieniać wiadomościami  oraz moduły zabezpieczające odpowiadają za bezpieczeństwo tych zasobów. Moduły aplikacji składają się z modułu zapewniającego transmisję głosu, modułu zapewniającego transmisję video, modułu zapewniającego wysyłanie oraz odbieranie wiadomości, modułu zapewniającego tworzenie grup, modułu zapewniającego przesyłanie plików, multimediów. Moduł zapezbieczający składa się szyfrowania end-to-end, szyfrowania peer-to-peer, rejestracji wyłącznie na podstawie numeru telefonu, rejestracji wyłącznie zweryfikowanych użytkowników, powiadomienia, gdy użytkownik loguje się z nowego urządzenia lub w przypadku zmiany urządzenia, opcji automatycznego usuwania rozów oraz histori po określonym czasie przez użytkownika, ustawienie zapewniające znikające wiadomości oraz zarządzanie nimi oraz tworzenie kopii zapasowej i przywracanie wiadomości.
+
